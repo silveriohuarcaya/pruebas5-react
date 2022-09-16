@@ -7,8 +7,6 @@ import Invoices from './pages/invoices'
 import Expenses from './pages/expenses'
 import Invoice from './pages/invoice'
 
-import reportWebVitals from './reportWebVitals'
-
 const Routing = () => (
   <BrowserRouter>
     <Routes>
@@ -28,8 +26,3 @@ root.render(
     <Routing />
   </React.StrictMode>
 )
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals()
